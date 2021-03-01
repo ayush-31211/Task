@@ -2,10 +2,10 @@ import {React} from "react";
 import { Down, Facebook, Instagram, Msgblu, Recp, Twitter } from "../../assets/Ellipse";
 import Text from "../../assets/Text";
 import Form from "./form";
-import Step from './step'
-import location from '../../assets/location.svg'
-import phone from '../../assets/phone.svg'
-import email from '../../assets/email.svg'
+import Step from './step';
+import location from '../../assets/location.svg';
+import phone from '../../assets/phone.svg';
+import email from '../../assets/email.svg';
 
 
 export default function Case(param) {

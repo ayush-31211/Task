@@ -4,11 +4,11 @@ import About from './pages/About/about';
 import Case from './pages/Case/case';
 import Customer from './pages/Customer/customer';
 import Union from './pages/Intro/union';
-import Login from './pages/Login/login';
+import Message from './pages/Message/Message';
 import Service from './pages/Service/service';
 import Tech from './pages/Technology/Tech';
 import Work from './pages/Workflow/workflow';
-
+// import Router from 'react-router-dom'
 
 function App() {
   return (
@@ -20,7 +20,7 @@ function App() {
       <Tech/>
       <Customer/>
       <Case/>
-      <Login/>
+      <Message/>
     </div>
   );
 }

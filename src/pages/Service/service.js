@@ -1,8 +1,9 @@
 import React from 'react';
 import { G35621} from '../../assets/Ellipse';
 import Btn from '../../assets/round_btn';
-import ArrHeading from "../../assets/heading"
-import CheckBox from "../../assets/checkbox"
+import ArrHeading from "../../assets/heading";
+import CheckBox from "../../assets/checkbox";
+import Text from '../../assets/Text';
 
 
 function Service(param)
@@ -21,15 +22,13 @@ function Service(param)
                     </div>
                 </div>
                 <div id="UIUX">
-                   <div style={{width:'36vw',boxShadow:"0vw 0vw 6vw #0e77ff26",display:'inline-flex',flexDirection:"column", alignItems:"start",  padding: "1vw"
-   }}>
+                   <div style={{width:'36vw',boxShadow:"0vw 0vw 6vw #0e77ff26",display:'inline-flex',flexDirection:"column", alignItems:"start",  padding: "1vw"}}>
                         <div>
                         <G35621 style={{width:'4vw',display:"inline-block"}}/>
                         <span style={{fontFamily:"sans-serif",fontWeight:"bold",fontSize:"2vw",margin:'0 1vw'}}>UI/UX Designing</span>
                         </div>
-                        <p style={{width: "34vw", fontSize:" 1.1vw", padding: "1vw 0"}}> 
-                        Lorem ipsum dolor sit amet, conse ctetur adipi scing elit. Aliq uam ex odio, is the turpis accu msan congue euisque blandit dui Pelle ntesque habitant.
-                        </p>
+                        <Text text="Lorem ipsum dolor sit amet, conse ctetur adipi scing elit. Aliq uam ex odio, is the turpis accu msan congue euisque blandit dui Pelle ntesque habitant." text_style={{width: "34vw", fontSize:" 1.1vw", padding: "1vw 0"}}/> 
+                        
                         <div id='checkbox'>
                             <CheckBox arr_style={{width:"2vw", marginRight:".5vw"}} text_style={{fontSize:"1vw", fontFamily:"sans-serif"}} text="Lorem ipsum dolor sit amet, conse ctetur adipi scing elit."/>
                             <CheckBox arr_style={{width:"2vw", marginRight:".5vw"}} text_style={{fontSize:"1vw", fontFamily:"sans-serif"}} text="Lorem ipsum dolor sit amet,"/>
@@ -37,9 +36,6 @@ function Service(param)
                             <CheckBox arr_style={{width:"2vw", marginRight:".5vw"}} text_style={{fontSize:"1vw", fontFamily:"sans-serif"}} text="Lorem ipsum dolor sit amet, conse ctetur"/>
                         </div>
                    </div>
-                    {/* <div>
-                        Shadow
-                    </div> */}
                 </div>
                     <div id="UIUX_blue"></div>
         </div>

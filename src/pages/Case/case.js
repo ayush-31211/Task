@@ -1,9 +1,9 @@
 import {React} from "react";
 import Text from "../../assets/Text";
-import Studies from './studies'
-import Case1 from "../../assets/case1.png"
-import Case2 from "../../assets/case2.png"
-import Case3 from "../../assets/case3.png"
+import Studies from './studies';
+import Case1 from "../../assets/case1.png";
+import Case2 from "../../assets/case2.png";
+import Case3 from "../../assets/case3.png";
 import Btn from "../../assets/round_btn";
 
 

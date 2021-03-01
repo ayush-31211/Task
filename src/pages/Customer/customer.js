@@ -9,7 +9,7 @@ export default function Customer(param) {
          <div id="Customer" style={{width:"100vw",display:"flex"}} >
 
             <div style={{overflow:"hidden"}}>
-                    <div style={{background:"#0E77FF",width:"max-content",display:"inline-block"}}>
+                <div style={{background:"#0E77FF",width:"max-content",display:"inline-block"}}>
                     <Pic style={{width: "25vw",border: "3vw solid white",borderRadius: "50%",display: "inline-flex",verticalAlign: "text-top",position:"relative",top:"-5vw",left:"6vw",margin:"4vw"}}/>
                     <G35648 style={{width:'15vw', position:"relative", left:"3vw", top:"-9vw"}}/>        
                 </div>
@@ -24,9 +24,7 @@ export default function Customer(param) {
 
                     <G35649 style={{left: "82vw",width: "30vw",position: "relative",top: "-7vw", margin:"-8vw 0"}}/>
 
-            </div>
-
-
+                </div>
          </div>
     )
 }
