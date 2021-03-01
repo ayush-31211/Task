@@ -1,5 +1,5 @@
 import {React} from "react";
-import Text from "../assets/Text";
+import Text from "../../assets/Text";
 import Step from './step';
 
 export default function Work(param) {

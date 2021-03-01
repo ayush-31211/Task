@@ -4,11 +4,10 @@ import About from './pages/About/about';
 import Case from './pages/Case/case';
 import Customer from './pages/Customer/customer';
 import Union from './pages/Intro/union';
-import Bg from './pages/Intro/bg';
 import Login from './pages/Login/login';
 import Service from './pages/Service/service';
 import Tech from './pages/Technology/Tech';
-import Work from './Workflow/workflow';
+import Work from './pages/Workflow/workflow';
 
 
 function App() {
@@ -22,7 +21,6 @@ function App() {
       <Customer/>
       <Case/>
       <Login/>
-      {/* <Bg/> */}
     </div>
   );
 }

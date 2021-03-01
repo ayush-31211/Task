@@ -1,6 +1,6 @@
 import {React} from "react";
-import Btn from "../assets/round_btn";
-import Text from "../assets/Text";
+import Btn from "../../assets/round_btn";
+import Text from "../../assets/Text";
 
 export default function Step(param) {
     return (
