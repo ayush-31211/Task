@@ -8,7 +8,6 @@ import Message from './pages/Message/Message';
 import Service from './pages/Service/service';
 import Tech from './pages/Technology/Tech';
 import Work from './pages/Workflow/workflow';
-// import Router from 'react-router-dom'
 
 function App() {
   return (
